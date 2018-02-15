@@ -1,0 +1,98 @@
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+h1 {
+    max-width: 100%;
+    background-color: black;
+    margin: 20px 0 20px 0;
+    padding-bottom: 5px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+nav {
+    margin-top: 30px;
+}
+nav > a {
+    color: black;
+}
+.loadPanel {
+    display: flex;
+    margin-top: 30px;
+    padding: 5px;
+        
+
+}
+.sign-out {
+    margin-left: auto;
+}
+
+.gallery {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3px;
+    padding-left: 27px;
+    padding-right: 27px;
+    justify-items: center;
+}
+footer {
+    max-width: 100%;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 0.8em;
+}
+footer p {
+    margin: 0;
+}
+.footer {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+.imageover {
+    box-shadow: 0 0 15px black;
+}
+.picture {
+    position: relative;/*уставнавливаем релатив, чтобы корзина встала на указанное место*/
+}
+.trash {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    
+}
+.login {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 300px;
+    z-index: 100;
+    background-color: rgb(116,109,109);
+    border-radius: 5px;
+    color: white;
+    
+}
+form {
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+.pagination {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+.pagination a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
